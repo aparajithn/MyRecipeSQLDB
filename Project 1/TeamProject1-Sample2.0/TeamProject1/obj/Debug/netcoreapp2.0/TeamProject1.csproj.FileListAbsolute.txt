@@ -1,0 +1,43 @@
+D:\Temp\TeamProject1\TeamProject1\bin\Debug\netcoreapp2.0\TeamProject1.deps.json
+D:\Temp\TeamProject1\TeamProject1\bin\Debug\netcoreapp2.0\TeamProject1.runtimeconfig.json
+D:\Temp\TeamProject1\TeamProject1\bin\Debug\netcoreapp2.0\TeamProject1.runtimeconfig.dev.json
+D:\Temp\TeamProject1\TeamProject1\bin\Debug\netcoreapp2.0\TeamProject1.dll
+D:\Temp\TeamProject1\TeamProject1\bin\Debug\netcoreapp2.0\TeamProject1.pdb
+D:\Temp\TeamProject1\TeamProject1\obj\Debug\netcoreapp2.0\TeamProject1.csproj.CoreCompileInputs.cache
+D:\Temp\TeamProject1\TeamProject1\obj\Debug\netcoreapp2.0\TeamProject1.AssemblyInfoInputs.cache
+D:\Temp\TeamProject1\TeamProject1\obj\Debug\netcoreapp2.0\TeamProject1.AssemblyInfo.cs
+D:\Temp\TeamProject1\TeamProject1\obj\Debug\netcoreapp2.0\TeamProject1.dll
+D:\Temp\TeamProject1\TeamProject1\obj\Debug\netcoreapp2.0\TeamProject1.pdb
+D:\Temp\TeamProject1-Sample2.0\TeamProject1\bin\Debug\netcoreapp2.0\TeamProject1.deps.json
+D:\Temp\TeamProject1-Sample2.0\TeamProject1\bin\Debug\netcoreapp2.0\TeamProject1.runtimeconfig.json
+D:\Temp\TeamProject1-Sample2.0\TeamProject1\bin\Debug\netcoreapp2.0\TeamProject1.runtimeconfig.dev.json
+D:\Temp\TeamProject1-Sample2.0\TeamProject1\bin\Debug\netcoreapp2.0\TeamProject1.dll
+D:\Temp\TeamProject1-Sample2.0\TeamProject1\bin\Debug\netcoreapp2.0\TeamProject1.pdb
+D:\Temp\TeamProject1-Sample2.0\TeamProject1\obj\Debug\netcoreapp2.0\TeamProject1.csprojAssemblyReference.cache
+D:\Temp\TeamProject1-Sample2.0\TeamProject1\obj\Debug\netcoreapp2.0\TeamProject1.csproj.CoreCompileInputs.cache
+D:\Temp\TeamProject1-Sample2.0\TeamProject1\obj\Debug\netcoreapp2.0\TeamProject1.AssemblyInfoInputs.cache
+D:\Temp\TeamProject1-Sample2.0\TeamProject1\obj\Debug\netcoreapp2.0\TeamProject1.AssemblyInfo.cs
+D:\Temp\TeamProject1-Sample2.0\TeamProject1\obj\Debug\netcoreapp2.0\TeamProject1.dll
+D:\Temp\TeamProject1-Sample2.0\TeamProject1\obj\Debug\netcoreapp2.0\TeamProject1.pdb
+V:\Downloads\TeamProject1-PartialSample2.0\TeamProject1-Sample2.0\TeamProject1\bin\Debug\netcoreapp2.0\TeamProject1.deps.json
+V:\Downloads\TeamProject1-PartialSample2.0\TeamProject1-Sample2.0\TeamProject1\bin\Debug\netcoreapp2.0\TeamProject1.runtimeconfig.json
+V:\Downloads\TeamProject1-PartialSample2.0\TeamProject1-Sample2.0\TeamProject1\bin\Debug\netcoreapp2.0\TeamProject1.runtimeconfig.dev.json
+V:\Downloads\TeamProject1-PartialSample2.0\TeamProject1-Sample2.0\TeamProject1\bin\Debug\netcoreapp2.0\TeamProject1.dll
+V:\Downloads\TeamProject1-PartialSample2.0\TeamProject1-Sample2.0\TeamProject1\bin\Debug\netcoreapp2.0\TeamProject1.pdb
+V:\Downloads\TeamProject1-PartialSample2.0\TeamProject1-Sample2.0\TeamProject1\obj\Debug\netcoreapp2.0\TeamProject1.csprojAssemblyReference.cache
+V:\Downloads\TeamProject1-PartialSample2.0\TeamProject1-Sample2.0\TeamProject1\obj\Debug\netcoreapp2.0\TeamProject1.csproj.CoreCompileInputs.cache
+V:\Downloads\TeamProject1-PartialSample2.0\TeamProject1-Sample2.0\TeamProject1\obj\Debug\netcoreapp2.0\TeamProject1.AssemblyInfoInputs.cache
+V:\Downloads\TeamProject1-PartialSample2.0\TeamProject1-Sample2.0\TeamProject1\obj\Debug\netcoreapp2.0\TeamProject1.AssemblyInfo.cs
+V:\Downloads\TeamProject1-PartialSample2.0\TeamProject1-Sample2.0\TeamProject1\obj\Debug\netcoreapp2.0\TeamProject1.dll
+V:\Downloads\TeamProject1-PartialSample2.0\TeamProject1-Sample2.0\TeamProject1\obj\Debug\netcoreapp2.0\TeamProject1.pdb
+V:\My Documents\CMPSC 431\Project 1\TeamProject1-Sample2.0\TeamProject1\obj\Debug\netcoreapp2.0\TeamProject1.csproj.CoreCompileInputs.cache
+V:\My Documents\CMPSC 431\Project 1\TeamProject1-Sample2.0\TeamProject1\obj\Debug\netcoreapp2.0\TeamProject1.AssemblyInfoInputs.cache
+V:\My Documents\CMPSC 431\Project 1\TeamProject1-Sample2.0\TeamProject1\obj\Debug\netcoreapp2.0\TeamProject1.AssemblyInfo.cs
+V:\My Documents\CMPSC 431\Project 1\TeamProject1-Sample2.0\TeamProject1\bin\Debug\netcoreapp2.0\TeamProject1.deps.json
+V:\My Documents\CMPSC 431\Project 1\TeamProject1-Sample2.0\TeamProject1\bin\Debug\netcoreapp2.0\TeamProject1.runtimeconfig.json
+V:\My Documents\CMPSC 431\Project 1\TeamProject1-Sample2.0\TeamProject1\bin\Debug\netcoreapp2.0\TeamProject1.runtimeconfig.dev.json
+V:\My Documents\CMPSC 431\Project 1\TeamProject1-Sample2.0\TeamProject1\bin\Debug\netcoreapp2.0\TeamProject1.dll
+V:\My Documents\CMPSC 431\Project 1\TeamProject1-Sample2.0\TeamProject1\bin\Debug\netcoreapp2.0\TeamProject1.pdb
+V:\My Documents\CMPSC 431\Project 1\TeamProject1-Sample2.0\TeamProject1\obj\Debug\netcoreapp2.0\TeamProject1.dll
+V:\My Documents\CMPSC 431\Project 1\TeamProject1-Sample2.0\TeamProject1\obj\Debug\netcoreapp2.0\TeamProject1.pdb
+V:\My Documents\CMPSC 431\Project 1\TeamProject1-Sample2.0\TeamProject1\obj\Debug\netcoreapp2.0\TeamProject1.csprojAssemblyReference.cache

@@ -1,0 +1,45 @@
+﻿@model TeamProject1.Models.Spice
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Spice</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Seasoning.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Seasoning.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Seasoning.Calories)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Seasoning.Calories)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Seasoning.Place_of_Origin)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Seasoning.Place_of_Origin)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Hotness)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Hotness)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

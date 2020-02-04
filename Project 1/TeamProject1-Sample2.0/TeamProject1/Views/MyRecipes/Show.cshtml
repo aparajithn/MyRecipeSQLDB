@@ -1,0 +1,135 @@
+﻿@model IEnumerable<TeamProject1.Models.RecipeDetails>
+@{
+    ViewData["Title"] = "Recipes";
+    var Elements = ViewData["TypesArray"] as string[];
+}
+<h2>@ViewData["Title"]</h2>
+<form asp-controller="MyRecipes" asp-action="Show">
+    Recipe Name: <input type="text" name="id" id="name" />
+    <input type="submit" />
+</form>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jQuery UI Accordion - Default functionality</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $(function () {
+            $("#accordion").accordion();
+        });
+
+    </script>
+</head>
+
+
+<script>
+    $(function () {
+        var model = @Html.Raw(Json.Serialize(Model));
+        var stra [];
+        model.foreach(function(item){
+            stra.push(item.MyRecipe.Name);
+        });
+
+
+            $("#name").autocomplete({
+            source: stra   });
+    });
+</script>
+
+<br />
+<div id="accordion">
+    @foreach (var item in Model)
+    {
+        <h3>
+            Recipe: @item.MyRecipe.Name
+        </h3>
+        <div>
+            <p>@Elements[0]:</p>
+            @if (item.I_common.Count > 0)
+            {
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => item.I_common[0].Ingredient.Name)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => item.I_common[0].Ingredient.Calories)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => item.I_common[0].Weight)
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var element in item.I_common)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => element.Ingredient.Name)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => element.Ingredient.Calories)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => element.Weight)
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+
+                <hr style="border:double" />
+            }
+            <p>Total Calories: @Html.DisplayFor(modelItem => item.Total_calories)</p>
+        
+    
+    
+           <h3>
+            Recipe: @item.MyRecipe.Name
+        </h3>
+        
+            <p>@Elements[1]:</p>
+            @if (item.S_common.Count > 0)
+            {
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => item.S_common[0].Seasoning.Name)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => item.S_common[0].Seasoning.Calories)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => item.S_common[0].Weight)
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var element in item.S_common)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => element.Seasoning.Name)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => element.Seasoning.Calories)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => element.Weight)
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+
+                <hr style="border:double" />
+            }
+            <p>Total Calories: @Html.DisplayFor(modelItem => item.Total_calories)</p>
+        </div>
+    }
+</div>

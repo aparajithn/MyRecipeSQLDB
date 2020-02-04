@@ -1,0 +1,53 @@
+﻿@model IEnumerable<TeamProject1.Models.Spice>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Seasoning.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Seasoning.Calories)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Seasoning.Place_of_Origin)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Hotness)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Seasoning.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Seasoning.Calories)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Seasoning.Place_of_Origin)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Hotness)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

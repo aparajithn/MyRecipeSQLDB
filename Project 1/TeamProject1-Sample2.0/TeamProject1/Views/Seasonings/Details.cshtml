@@ -1,0 +1,36 @@
+﻿@model TeamProject1.Models.Seasoning
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Seasoning</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Calories)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Calories)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Place_of_Origin)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Place_of_Origin)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

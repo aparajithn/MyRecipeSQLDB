@@ -1,0 +1,48 @@
+﻿@model TeamProject1.Models.Spice
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Create</h2>
+
+<h4>Spice</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Seasoning.Name" class="control-label"></label>
+                <input asp-for="Seasoning.Name" class="form-control" />
+                <span asp-validation-for="Seasoning.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Seasoning.Calories" class="control-label"></label>
+                <input asp-for="Seasoning.Calories" class="form-control" />
+                <span asp-validation-for="Seasoning.Calories" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Seasoning.Place_of_Origin" class="control-label"></label>
+                <input asp-for="Seasoning.Place_of_Origin" class="form-control" />
+                <span asp-validation-for="Seasoning.Place_of_Origin" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Hotness" class="control-label"></label>
+                <input asp-for="Hotness" class="form-control" />
+                <span asp-validation-for="Hotness" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
